@@ -121,9 +121,7 @@ export default function ImpactStats() {
               className="relative bg-white pl-14 pr-6 py-8 rounded-2xl shadow-lg hover:shadow-xl transition-all border border-gray-100 group"
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${challenge.gradient} opacity-0 group-hover:opacity-5 transition-opacity rounded-2xl`} />
-              <div className={`absolute left-5 top-8 w-8 h-8 flex items-center justify-center text-2xl bg-gradient-to-br ${challenge.gradient} bg-clip-text text-transparent`}>
-                {challenge.icon}
-              </div>
+                            <div className="absolute left-5 top-8 w-8 h-8 flex items-center justify-center text-2xl">                <span className="drop-shadow-sm">{challenge.icon}</span>              </div>
               <h3 className="font-semibold text-lg text-gray-900 mb-3">
                 {challenge.title}
               </h3>

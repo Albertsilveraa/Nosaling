@@ -1,0 +1,22 @@
+INSTRUCCIONES PARA ARCHIVOS DE AUDIO:
+
+Coloca aquí los archivos MP3 de la voz de cada agente:
+
+- qori.mp3     (Voz del agente de Marketing)
+- chaski.mp3   (Voz del agente de Logística)  
+- inti.mp3     (Voz del agente de Ventas)
+- amaru.mp3    (Voz del agente de Seguridad)
+- yachay.mp3   (Voz del agente de Análisis de Datos)
+
+Mientras no tengas los archivos, la aplicación mostrará el reproductor 
+pero no podrá cargar el audio.
+
+Para generar las voces de los agentes puedes usar:
+- OpenAI Text-to-Speech API
+- ElevenLabs
+- Google Cloud Text-to-Speech
+- AWS Polly
+- Azure Cognitive Services
+
+Los archivos deben ser MP3 con calidad web (128kbps recomendado) 
+y duración de 15-30 segundos para mejor experiencia de usuario. 
